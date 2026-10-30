@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "recued": {
+      "command": "recued",
+      "args": ["--mcp", "--app", "cursor"]
+    }
+  }
+}

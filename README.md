@@ -29,6 +29,10 @@ codex plugin add recued@recued
 Other apps that load Agent Plugins packages can install this repository with their own plugin
 commands.
 
+Cursor, and other apps that read a `.mcp.json` file: this repository's `.mcp.json` starts the same
+server as `recued --mcp --app cursor`, so `recued mcp-key set --app cursor` gives Cursor a key of its
+own. Agent Plugins apps read `mcp.json` only, as the specification requires.
+
 ## Give it the contract's key
 
 The plugin carries no key, and your app does not pass one to it, so you save the key in Recued:
