@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "recued",
+  "version": "1.0.0",
+  "description": "Connect your AI agent to your own Recued server on this computer: it reads your notes, tasks and the things you own, and every change waits for your approval.",
+  "author": {
+    "name": "Recued",
+    "url": "https://recued.com"
+  },
+  "homepage": "https://recued.com/docs/guides/connect-to-recued/",
+  "repository": "https://github.com/recued/agent-plugin",
+  "license": "MIT",
+  "keywords": ["recued", "mcp", "self-hosted", "approvals", "notes", "tasks", "privacy"]
+}

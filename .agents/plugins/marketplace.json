@@ -1,0 +1,20 @@
+{
+  "name": "recued",
+  "interface": {
+    "displayName": "Recued"
+  },
+  "plugins": [
+    {
+      "name": "recued",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
