@@ -55,6 +55,16 @@ or one contract to all of them. `recued mcp-key clear` removes a saved key.
 - If Recued runs on another computer, this plugin's local server cannot reach it. Connect the agent
   over HTTP instead, as the contract's Connect tab shows.
 
+## What it runs
+
+- One local process, `recued --mcp`, while your agent app runs. The app starts and stops it.
+- That process works on your Recued data on this computer: the notes, tasks and records your
+  contract grants. Its tools can reach the services you connected to Recued, such as your mail, only
+  as the contract allows, and a change waits for your approval.
+- The plugin itself runs no shell commands, makes no network calls, holds no credential and sends no
+  telemetry. `recued mcp-key set` records in Recued's own database which contract each app uses; it
+  does not store the key itself.
+
 ## Privacy
 
 Your data stays on your Recued server. The agent sees only what a tool returns, and Recued returns
